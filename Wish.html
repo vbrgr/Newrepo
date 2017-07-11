@@ -1,0 +1,22 @@
+<?php include('conection.php'); ?>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+<body ng-app="">
+<div ng-include="conection.php"></div>
+<form >
+  Name:<br>
+  <input type="text" ng-model="firstname" value="Mickey">
+  <br>
+  Back-Ground Image:<br>
+  <input type="file" ng-model="image"  >
+  <br><br>
+  <input type="submit" value="Submit">
+  <p>You entered: {{firstname}}</p>
+  <p>You entered: {{image}}</p>
+</form> 
+</body>
+</html>
