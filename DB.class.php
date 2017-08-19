@@ -2,8 +2,8 @@
 /**
  *  DB - A simple database class 
  *
- * @author		Author: Vivek Wicky Aswal. (https://twitter.com/#!/VivekWickyAswal)
- * @git 		https://github.com/wickyaswal/PHP-MySQL-PDO-Database-Class
+ * @author		Author: 
+ * @git 		https://github.com/vbrgr/Newrepo/edit/master/DB.class.php
  * @version      0.2ab
  *
  */
